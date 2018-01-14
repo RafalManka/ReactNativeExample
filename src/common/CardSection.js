@@ -19,4 +19,4 @@ const styles = {
   }
 };
 
-module.exports = CardSection;
+export { CardSection };

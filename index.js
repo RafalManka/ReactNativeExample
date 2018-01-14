@@ -1,7 +1,4 @@
-import React from 'react';
 import { AppRegistry } from 'react-native';
-import LandingScreen from './src/booking/LandingScreen';
+import LoginScreen from './src/login/LoginScreen';
 
-const App = () => <LandingScreen />;
-
-AppRegistry.registerComponent('emiratesBooking', () => App);
+AppRegistry.registerComponent('emiratesBooking', () => LoginScreen);

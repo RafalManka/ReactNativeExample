@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableHighlight, Image } from 'react-native';
-import assets from '../../../assets/Assets';
+import { Icons, Colors } from '../../../assets';
 
 class WhiteButton extends Component {
 
   compoundIcon() {
     switch (this.props.icon) {
       case 'car':
-          return assets.icons.car;
+          return Icons.car;
       case 'hotel':
-          return assets.icons.hotel;
+          return Icons.hotel;
       case 'attractions':
-          return assets.icons.attractions;
+          return Icons.attractions;
       case 'transfers':
-          return assets.icons.transfers;
+          return Icons.transfers;
       default:
           return null;
     }
@@ -22,7 +22,7 @@ class WhiteButton extends Component {
   render() {
     return (
       <TouchableHighlight
-        underlayColor={assets.colors.lightGray}
+        underlayColor={Colors.lightGray}
         style={style.button}
         onPress={() => console.log('ouch!')}
       >
@@ -39,7 +39,7 @@ class WhiteButton extends Component {
 const style = {
   button: {
     padding: 20,
-    backgroundColor: assets.colors.white,
+    backgroundColor: Colors.white,
     marginLeft: 15,
     marginRight: 15,
     marginTop: 15,
@@ -58,7 +58,7 @@ const style = {
   },
   text: {
     fontSize: 18,
-    color: assets.colors.black,
+    color: Colors.black,
     paddingTop: 4,
     paddingBottom: 4,
     marginLeft: 10,

@@ -1,17 +1,17 @@
 import React from 'react';
 import { View, Image, Text, TouchableHighlight } from 'react-native';
-import assets from '../../../assets/Assets';
+import { Colors, Icons } from '../../../assets';
 
 const RedButton = (props) => {
   const { children } = props;
   return (
     <TouchableHighlight
       style={style.button}
-      underlayColor={assets.colors.emiratesRedPale}
+      underlayColor={Colors.emiratesRedPale}
       onPress={() => console.log('ouch!')}
     >
       <View style={style.container}>
-        <Image style={style.boeing} source={assets.icons.boeing} />
+        <Image style={style.boeing} source={Icons.boeing} />
         <Text style={style.text}>{children}</Text>
       </View>
     </TouchableHighlight>
@@ -21,7 +21,7 @@ const RedButton = (props) => {
 const style = {
   button: {
     borderRadius: 5,
-    backgroundColor: assets.colors.emiratesRed,
+    backgroundColor: Colors.emiratesRed,
     marginLeft: 15,
     marginRight: 15,
   },
@@ -38,7 +38,7 @@ const style = {
   },
   text: {
     fontSize: 18,
-    color: assets.colors.white,
+    color: Colors.white,
     fontWeight: '600'
   }
 };

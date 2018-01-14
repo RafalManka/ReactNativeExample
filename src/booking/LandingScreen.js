@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Text, ImageBackground } from 'react-native';
-import Header from '../app/widgets/Header';
+import { Header } from '../common';
 import RedButton from './widgets/RedButton';
 import WhiteButton from './widgets/WhiteButton';
-import assets from '../../assets/Assets';
+import { Images } from '../../assets';
 
 const LandingScreen = () => (
   <ImageBackground
-    source={assets.images.landingBackground}
+    source={Images.landingBackground}
     style={style.image}
   >
     <Header headerText={'Book'} />

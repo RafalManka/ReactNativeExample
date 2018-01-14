@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, Linking } from 'react-native';
+import { ScrollView } from 'react-native';
 import injections from '../app/injection/Injections';
 import AlbumDetail from './AlbumDetail';
 
