@@ -8,6 +8,8 @@ form some king of opinion about it.
 * Framework is very similar to Vue.js, Angular 1 and it easy to pick up React Native if you know any of those frameworks. Concepts are the same.
 * Modularization of code is very simple and intuitive. You achieve it by nesting custom components from more general to detailed.
 * Simplified lifecycle - updating screen after network response is as easy as assigning variable.
+* Good debugger in browser, all variables are visible and modifiable. 
+* Hot reload. No need to compile code to see changes.
 * Community is big (stackoverflow, github), documentation is ok
 * Lots of plugins etc.
 * Lots of tutorials and articles both free and paid
