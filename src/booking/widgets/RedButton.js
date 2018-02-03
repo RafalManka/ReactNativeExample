@@ -21,7 +21,7 @@ const RedButton = (props) => {
 const style = {
   button: {
     borderRadius: 5,
-    backgroundColor: Colors.emiratesRed,
+    backgroundColor: 'green',
     marginLeft: 15,
     marginRight: 15,
   },

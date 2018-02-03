@@ -11,13 +11,12 @@ const style = {
     button: {
       flex: 1,
       alignSelf: 'stretch',
-      backgroundColor: '#ffff',
+      backgroundColor: '#fff',
       borderRadius: 5,
       borderWidth: 1,
       borderColor: '#007aff',
       marginLeft: 5,
-      marginRight: 5,
-      marginBottom: 5
+      marginRight: 5
     },
     text: {
       alignSelf: 'center',

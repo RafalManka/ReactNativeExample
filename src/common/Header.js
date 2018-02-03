@@ -20,7 +20,6 @@ const styles = {
     position: 'relative'
   },
   text: {
-    // fontFamily: 'emiratesSM',
     color: 'white',
     fontSize: 18
   }

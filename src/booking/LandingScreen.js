@@ -11,7 +11,7 @@ const LandingScreen = () => (
     style={style.image}
   >
     <Header headerText={'Book'} />
-    <View style={{ height: 43 }} />
+    <View style={{ height: 20 }} />
     <RedButton>Book a flight</RedButton>
     <Text style={style.sectionTitle}>OTHER SERVICES</Text>
     <WhiteButton icon={'hotel'}>Hotels</WhiteButton>
@@ -28,8 +28,8 @@ const style = {
     height: '100%',
   },
   sectionTitle: {
-    paddingTop: 20,
-    paddingBottom: 20,
+    paddingTop: 24,
+    paddingBottom: 16,
     color: 'white',
     marginLeft: 15,
     marginRight: 15,
