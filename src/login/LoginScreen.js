@@ -39,12 +39,19 @@ class LoginScreen extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1, backgroundColor: '#f2f2f2' }}>
+      <View style={style.screen}>
         <Header headerText="Authentication" />
         {this.renderContent()}
       </View>
     );
   }
 }
+
+const style = {
+  screen: {
+    flex: 1,
+    backgroundColor: '#f2f2f2'
+  }
+};
 
 export default LoginScreen;
