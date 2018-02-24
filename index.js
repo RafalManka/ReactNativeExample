@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import TechStack from './src/techstack/TechStack';
+import App from './src/manager/App';
 
-AppRegistry.registerComponent('emiratesBooking', () => TechStack);
+AppRegistry.registerComponent('emiratesBooking', () => App);
