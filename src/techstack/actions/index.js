@@ -1,6 +1,6 @@
 import { Ids } from '../../../assets';
 
 export const selectLibrary = (libraryId) => ({
-  type: Ids.actionSelectLibrary,
+  type: Ids.actions.selectLibrary,
   payload: libraryId
 });
