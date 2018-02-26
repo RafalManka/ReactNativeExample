@@ -36,7 +36,7 @@ class LoginForm extends Component {
     if (this.props.progress === true) {
       return <Spinner size="large" />;
     }
-    return <Button onClick={this.onButtonPressed.bind(this)} />;
+    return <Button onClick={this.onButtonPressed.bind(this)} >Create</Button>;
   }
 
   render() {
